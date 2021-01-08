@@ -29,6 +29,7 @@ export class DetailsPage implements OnInit {
           }
         },{
             text: 'Home',
+            role: 'home',
             handler: () => {
               console.log('Home clicked');
           }
