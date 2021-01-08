@@ -1,0 +1,66 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Create Data</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-label position="floating">Nama Lengkap :</ion-label>
+      <ion-input type="text"></ion-input>  
+    </ion-item>
+  
+    <ion-item>
+      <ion-label position="floating">Tempat/Tgl Lahir :</ion-label>
+      <ion-input type="text"></ion-input>  
+    </ion-item>
+  
+    <ion-item>
+      <ion-label>Jenis Kelamin :</ion-label>
+      <ion-select>
+        <ion-select-option>Laki-Laki</ion-select-option>
+        <ion-select-option>Perempuan</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Golongan Darah :</ion-label>
+      <ion-select>
+        <ion-select-option>A</ion-select-option>
+        <ion-select-option>B</ion-select-option>
+        <ion-select-option>O</ion-select-option>
+      </ion-select>
+    </ion-item>
+  
+  
+    <ion-item>
+      <ion-label position="stacked">Alamat Lengkap</ion-label>
+      <ion-input placeholder="Jalan"></ion-input>
+      <ion-input placeholder="RT"></ion-input>
+      <ion-input placeholder="RW"></ion-input>
+      <ion-input placeholder="Kelurahan"></ion-input>
+      <ion-input placeholder="Kecamatan"></ion-input>
+      <ion-input placeholder="Kota"></ion-input>
+      <ion-input placeholder="Kode Pos"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label>Agama :</ion-label>
+      <ion-select>
+        <ion-select-option>Islam</ion-select-option>
+        <ion-select-option>Kristen</ion-select-option>
+        <ion-select-option>Budha</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Keterangan Hubungan :</ion-label>
+      <ion-input type="text"></ion-input>  
+    </ion-item>
+
+  </ion-list>
+  <ion-item>
+    <ion-button fill="solid" expand="block" shape="round" routerLink="/halamanutama" (click)="tambahdata()">Create</ion-button>
+  </ion-item>
+</ion-content>

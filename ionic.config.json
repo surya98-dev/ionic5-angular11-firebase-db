@@ -1,5 +1,7 @@
 {
   "name": "hiapps",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

@@ -1,0 +1,77 @@
+<ion-app>
+  <ion-menu side="start" content-id="main-content">
+    <ion-header>
+      <ion-toolbar translucent>
+        <ion-title>Menu</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+    
+        <ion-item routerLink="/profile">
+          <ion-icon name="warning" slot="start"></ion-icon>
+          <ion-label>Profile</ion-label>
+        </ion-item>
+        <ion-item routerLink="/tambahdata">
+          <ion-icon name="trash" slot="start"></ion-icon>
+          <ion-label>Create</ion-label>
+        </ion-item>
+        <ion-item routerLink="/login">
+          <ion-icon name="archive" slot="start"></ion-icon>
+          <ion-label>Logout</ion-label>
+        </ion-item>
+       
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+
+  <div class="ion-page" id="main-content">
+    <ion-header>
+      <ion-toolbar>
+        <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-searchbar></ion-searchbar>
+      </ion-toolbar>
+    </ion-header>
+
+
+
+    <ion-content class="ion-padding">
+
+      <ion-card>
+    <ion-item>
+      <ion-label>Andrean</ion-label>
+      <ion-button fill="solid" slot="end" routerLink="/details">View</ion-button>
+    </ion-item>
+  
+    <ion-card-content>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime in alias, iure fuga voluptatem blanditiis eius eos dolorem veniam? Sunt, quidem tempora esse eaque voluptatum ab reiciendis necessitatibus quia tenetur.
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-item>
+      <ion-label>Steve</ion-label>
+      <ion-button fill="solid" slot="end" routerLink="/details">View</ion-button>
+    </ion-item>
+  
+    <ion-card-content>
+     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dignissimos consequuntur reiciendis? Voluptas laudantium expedita, molestias nulla ducimus, ullam aliquid sequi facere quis, ipsa odio alias possimus corporis voluptatem earum.
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-item>
+      <ion-label>Jason </ion-label>
+      <ion-button fill="solid" slot="end" routerLink="/details">View</ion-button>
+    </ion-item>
+  
+    <ion-card-content>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore eum nulla maxime sed? Autem ipsam odio reprehenderit nihil recusandae! Vitae consequatur fugit in sapiente adipisci saepe dicta, doloremque rerum accusantium.
+    </ion-card-content>
+  </ion-card>
+
+    </ion-content>
+  </div>
+</ion-app>
